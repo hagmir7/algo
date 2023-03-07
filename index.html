@@ -34,7 +34,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto"><a href="/">Algo</a></h1>
@@ -42,11 +42,18 @@
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/favicon.png" alt="Algo" class="img-fluid"></a> -->
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="/#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="/#hero">Accueil</a></li>
           <li class="dropdown "><a href="#"><span>Nos produits</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Algo indicateur</a></li>
               <li><a href="#">Robot Auto trading</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown "><a href="#"><span>Langue</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#"><img src="assets/img/drapo/france.png" width="30px" alt=""> Français</a></li>
+              <li><a href="#"><img src="assets/img/drapo/morocco.png" width="30px" alt="">العربية</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#">Panier</a></li>
@@ -78,7 +85,6 @@
         </div>
       </div>
     </div>
-
   </section>
 
 
@@ -88,7 +94,6 @@
     <!-- ======= u'est-ce que Algo Indicateur ======= -->
     <section class="why-us section-bg">
       <div class="container-fluid" data-aos="fade-up">
-
         <div class="row">
           <div class="col-lg-7 order-md-1 order-2 d-flex flex-column justify-content-center align-items-stretch ">
             <div class="content">
@@ -124,7 +129,7 @@
             <div class="content">
               <h3>Ne ressentez-vous pas de la fatigue vis-à-vis des indicateurs
                  et des outils traditionnels de Metatrader 4?</h3>
-              <p class="lh-base h5 mt-3">
+              <p class="lh-base h6 mt-3">
                 Il est important de noter que l'utilisation d'un
                 graphique encombré peut réduire jusqu'à 60% vos
                 chances de réussite dans vos transactions. Pour
@@ -149,7 +154,7 @@
           <div class="col-lg-7 order-md-2 oreder-md-1 oreder-lg-1 order-xl-1">
             <div class="content">
               <h3>Ne laissez pas votre emplacement vous empêcher de suivre vos trades </h3>
-              <p class="lh-base h5 mt-3">
+              <p class="lh-base h6 mt-3">
                 Peu importe où vous vous trouvez - au travail, en
                 déplacement ou à la maison, notre système d'alertes vous
                 enverra toutes les informations dont vous avez besoin,
@@ -171,7 +176,7 @@
           <div class="col-lg-7 order-md-2 d-flex flex-column justify-content-center align-items-stretch">
             <div class="content">
               <h3>Évitez les erreurs de trading émotionnelles avec nos signaux précis.</h3>
-              <p class="lh-base h5 mt-3">
+              <p class="lh-base h6 mt-3">
                 Nos signaux d'achat et de vente sont conçus pour vous
                 donner une idée claire des transactions potentielles,
                 éliminant ainsi les décisions basées sur des émotions.
@@ -194,7 +199,7 @@
           <div class="col-lg-7 order-md-2 oreder-md-1 oreder-lg-1 order-xl-1">
             <div class="content">
               <h3>Ne perdez plus jamais d'argent avec des prix Stop Loss et Take Profit précis</h3>
-              <p class="lh-base h5 mt-3">
+              <p class="lh-base h6 mt-3">
                 Évitez les pertes inutiles en définissant des prix Stop Loss et
                 Take Profit précis pour chaque signal de trading. Notre
                 service vous fournit ces prix de manière automatique, vous
@@ -219,7 +224,7 @@
           <div class="col-lg-7 order-md-2 d-flex flex-column justify-content-center align-items-stretch">
             <div class="content">
               <h3>Ne perdez plus jamais d'argent avec des prix Stop Loss et Take Profit précis</h3>
-              <p class="lh-base h5 mt-3">
+              <p class="lh-base h6 mt-3">
                 Évitez les pertes inutiles en définissant des prix Stop Loss et
                 Take Profit précis pour chaque signal de trading. Notre
                 service vous fournit ces prix de manière automatique, vous
@@ -243,7 +248,7 @@
           <div class="col-lg-7 order-md-2 oreder-md-1 oreder-lg-1 order-xl-1">
             <div class="content">
               <h3>Trouvez facilement des points d'inversion de tendance avec l'outil de support et de résistance</h3>
-              <p class="lh-base h5 mt-3">
+              <p class="lh-base h6 mt-3">
                 Vous avez des difficultés à identifier les supports et
                 résistances sur le graphique ? Notre outil de support et de
                 résistance peut vous aider. En traçant automatiquement des
@@ -260,23 +265,36 @@
     </section>
 
     <!-- Tarifs 1 -->
-    <section id="team" class="team section-bg bg-white">
+
+
+
+    <section id="pricing" class="pricing">
       <div class="container aos-init aos-animate" data-aos="fade-up">
-        <div class="section-title">
+        <div class="section-title" data-read-aloud-multi-block="true">
           <h2>Nos tarifs</h2>
         </div>
-        <div class="row justify-content-center d-flex">
-          <div class="col-lg-8 mt-4 mt-lg-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-            <a href="">
-              <div class="member d-flex align-items-center justify-content-center"
-                style="background-image: url('assets/img/pricing.png'); height: 200px;">
-                <div class="fs-4">
-                  <div><del>4000 DH</del> barré</div>
-                  <div class="text-center fw-bolder">3300 Dh</div>
-                </div>
+        <div class="row d-flex justify-content-center">
+
+          <div class="col-lg-8 mt-4 mt-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured row">
+
+              <div class="col-xl-6 p-0">
+                <img src="assets/img/test-2.png" class="rounded" width="100%" alt="">
               </div>
-            </a>
+              <div class="col-xl-6">
+                <h3><del>4000 MAD</del>  Barré</h3>
+                 <h4><sup>MAD</sup>3300<span>Illimité</span></h4>
+                 <ul>
+                  <li class="py-1"><i class="bx bx-check"></i> Assistance par e-mail.</li>
+                  <li class="py-1"><i class="bx bx-check"></i> Outils d'analyse avancés.</li>
+                  <li class="py-1"><i class="bx bx-check"></i> Customized portfolio management.</li>
+                  <li class="py-1"><i class="bx bx-check"></i> Analytique de qualité institutionnelle.</li>
+                </ul> <a href="/contact.html" class="buy-btn">Contactez-nous</a>
+              </div>
+
+            </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -288,13 +306,13 @@
 
             <div class="section-title">
               <h2>Automatisez vos idées de trading sans écrire de code.</h2>
-              <h3>Bienvenue dans le monde de l'investissement automatisé !</h3>
             </div>
 
             <div class="row d-flex justify-content-center">
-              <div class="col-lg-7 order-md-1 order-2 d-flex flex-column justify-content-center align-items-stretch">
+              <div class="col-lg-7 order-md-1 order-2 d-flex flex-column">
                 <div class="content">
-                  <p class="lh-base h5 mt-3">
+                  <h3>Bienvenue dans le monde de l'investissement automatisé !</h3>
+                  <p class="lh-base h6 mt-3">
                     Je suis un robot de trading d'arbitrage, conçu pour vous aider à
                     réaliser des bénéfices en ligne grâce à mes capacités d'analyse de
                     données en temps réel. Je suis capable de rechercher les échanges
@@ -317,7 +335,7 @@
               </div>
 
               <div class="col-lg-5 align-items-stretch img">
-                <img class=" rounded border" src="assets/img/test-1.png" width="100%" height="500px" alt="">
+                <img class=" rounded border" src="assets/img/test-3.png" width="100%" height="400px" alt="">
               </div>
             </div>
         </section>
@@ -419,23 +437,31 @@
 
 
     <!-- Tarifs 2 -->
-    <section id="team" class="team section-bg ">
+    <section id="pricing" class="pricing">
       <div class="container aos-init aos-animate" data-aos="fade-up">
-        <div class="section-title">
+        <div class="section-title" data-read-aloud-multi-block="true">
           <h2>Nos tarifs</h2>
         </div>
-        <div class="row justify-content-center d-flex">
-          <div class="col-lg-8 mt-4 mt-lg-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-            <a href="">
-              <div class="member d-flex align-items-center justify-content-center"
-                style="background-image: url('assets/img/pricing.png'); height: 200px;">
-                <div class="fs-4">
-                  <div><del>4000 DH</del> barré</div>
-                  <div class="text-center fw-bolder">3300 Dh</div>
-                </div>
+        <div class="row d-flex justify-content-center">
+
+          <div class="col-lg-8 mt-4 mt-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured row">
+              <div class="col-xl-6">
+                <h3><del>2000 MAD</del>  Barré</h3>
+                 <h4><sup>MAD</sup>1200<span>Illimité</span></h4>
+                 <ul>
+                  <li class="py-1"><i class="bx bx-check"></i> Assistance par e-mail.</li>
+                  <li class="py-1"><i class="bx bx-check"></i> Outils d'analyse avancés.</li>
+                  <li class="py-1"><i class="bx bx-check"></i> Customized portfolio management.</li>
+                  <li class="py-1"><i class="bx bx-check"></i> Analytique de qualité institutionnelle.</li>
+                </ul> <a href="/contact.html" class="buy-btn">Contactez-nous</a>
               </div>
-            </a>
+              <div class="col-xl-6 p-0">
+                <img src="assets/img/test-2.png" class="rounded" width="100%" alt="">
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -502,7 +528,9 @@
     </div>
   </footer>
 
-  <div id="preloader"></div>
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
     <i class="bi bi-arrow-up-short"></i>
   </a>
