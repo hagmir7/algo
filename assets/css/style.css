@@ -1479,7 +1479,7 @@ section {
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
-  right: 0;
+  right: 20px;
   left: 20px;
   color: #47b2e4;
 }
